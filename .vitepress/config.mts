@@ -7,9 +7,9 @@ export default defineConfig({
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.svg',
+    logo: 'https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg',
     nav: [
-      { text: '开源案例🍃', link: ' https://openthree.github.io/three-cesium-examples/#/example' },
+      { text: '开源案例🍃', link: 'https://z2586300277.github.io/three-cesium-examples/' },
     ],
 
     sidebar: [

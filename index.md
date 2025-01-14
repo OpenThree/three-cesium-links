@@ -7,7 +7,7 @@ hero:
   text: "开源 - 三维"
   tagline: 一个专注于前端可视化的开源组织，三维可视化开发者抱团取暖，开源分享知识，接活盈利，让自己更有底气，加入请联系
   image:
-    src: /logo.svg
+    src: https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg
 # features:
 #   - title: Feature A
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
