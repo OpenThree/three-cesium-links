@@ -53,7 +53,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-          cd public/
+          cd /.vitepress/dist
           git init
           git add -A
           git commit -m "Create by workflows"
