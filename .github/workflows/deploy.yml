@@ -84,7 +84,7 @@ jobs:
           git pull origin main &&
           # 执行你想要的部署命令，比如构建项目、重启服务等
           npm install &&
-          npm run docs:build &&
+          npm run docs:build2 &&
           if [ ! -d "/nico/nginx/html/openthree/${{env.APP_NAME}}" ]; then
           mkdir -p /nico/nginx/html/openthree/${{env.APP_NAME}} &&
           mkdir -p /nico/nginx/html/openthree/nico

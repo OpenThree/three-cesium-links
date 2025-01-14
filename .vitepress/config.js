@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitepress'
-
+let base_front = ''
+if (process.env == 'development') {
+  base_front = '/openthree'
+}
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "OPEN THREE",
-  base:  '/three-cesium-links',
+  base:  base_front+ '/three-cesium-links',
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
