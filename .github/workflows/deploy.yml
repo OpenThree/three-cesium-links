@@ -57,7 +57,7 @@ jobs:
           git init
           git add -A
           git commit -m "Create by workflows"
-          git remote add origin https://${{ secrets.GH_TOKEN }}@github.com/OpenThree/three-cesium-links.git
+          git remote add origin https://${{ secrets.SSH_PRIVATE_KEY }}@github.com/OpenThree/three-cesium-links.git
           git push origin HEAD:page -f
 
   # 部署到阿里云服务器
