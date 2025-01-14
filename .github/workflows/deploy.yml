@@ -36,5 +36,5 @@ jobs:
           if [ ! -d "/nico/nginx/html/${{env.APP_NAME}}" ]; then
           mkdir -p /nico/nginx/html/${{env.APP_NAME}}
           fi &&
-          cp -r /project/${{env.APP_NAME}}/dist/* /nico/nginx/html/${{env.APP_NAME}}
+          cp -r /project/${{env.APP_NAME}}/.vitepress/dist/* /nico/nginx/html/${{env.APP_NAME}}
           "
