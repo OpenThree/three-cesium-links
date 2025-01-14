@@ -8,10 +8,63 @@ on:
     branches:
       - master
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+ # 允许你从 Actions 选项卡手动运行此工作流程
+  workflow_dispatch:
 
+# 设置 GITHUB_TOKEN 的权限，以允许部署到 GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 只允许同时进行一次部署，跳过正在运行和最新队列之间的运行队列
+# 但是，不要取消正在进行的运行，因为我们希望允许这些生产部署完成
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # 构建工作
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整的历史记录，防止依赖 `lastUpdated`
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm  # 使用 npm 缓存，或者根据需要使用 pnpm / yarn
+
+      - name: Install dependencies
+        run: npm ci  # 安装依赖
+
+      - name: Build with VitePress
+        run: npm run docs:build  # 构建 VitePress 项目
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist  # 上传构建的静态文件作为 artifact
+
+  # 部署工作到 GitHub Pages
+  deploy_to_github_pages:
+    environment:
+      name: github-pages
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4  # 将构建的文件部署到 GitHub Pages
+
+  # 部署到阿里云服务器
+  deploy_to_aliyun:
+    runs-on: ubuntu-latest
+    needs: build  # 确保先完成构建再进行部署
     steps:
       - name: Checkout the code
         uses: actions/checkout@v3
