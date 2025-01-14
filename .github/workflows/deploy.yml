@@ -24,42 +24,46 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # 构建工作
+ # 构建工作
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整的历史记录，防止依赖 `lastUpdated`
-
+          fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
+      # - uses: pnpm/action-setup@v3 # 如果使用 pnpm，请取消此区域注释
+      #   with:
+      #     version: 9
+      # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm  # 使用 npm 缓存，或者根据需要使用 pnpm / yarn
-
+          cache: npm # 或 pnpm / yarn
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: npm ci  # 安装依赖
-
+        run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
-        run: npm run docs:build  # 构建 VitePress 项目
-
+        run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist  # 上传构建的静态文件作为 artifact
+          path: docs/.vitepress/dist
 
-  # 部署工作到 GitHub Pages
-  deploy_to_github_pages:
+  # 部署工作
+  deploy:
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
+    name: Deploy
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4  # 将构建的文件部署到 GitHub Pages
+        uses: actions/deploy-pages@v4
 
   # 部署到阿里云服务器
   deploy_to_aliyun:
