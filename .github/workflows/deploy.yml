@@ -1,0 +1,40 @@
+env: # 定义全局变量
+  APP_NAME: "three-cesium-links"
+
+name: Deploy to Aliyun
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v3
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{secrets.SSH_PRIVATE_KEY}}
+
+      - name: Deploy to Aliyun Server
+        run: |
+          ssh -o StrictHostKeyChecking=no root@101.200.77.126 "
+          if [ ! -d "/project/${{env.APP_NAME}}" ]; then
+          cd /project &&
+          git clone git@github.com:OpenThree/${{env.APP_NAME}}.git
+          fi &&
+          cd /project/${{env.APP_NAME}} &&
+          git pull origin main &&
+          # 执行你想要的部署命令，比如构建项目、重启服务等
+          npm install &&
+          npm run build:production &&
+          if [ ! -d "/nico/nginx/html/${{env.APP_NAME}}" ]; then
+          mkdir -p /nico/nginx/html/${{env.APP_NAME}}
+          fi &&
+          cp -r /project/${{env.APP_NAME}}/dist/* /nico/nginx/html/${{env.APP_NAME}}
+          "
