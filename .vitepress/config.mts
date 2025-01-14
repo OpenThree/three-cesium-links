@@ -3,8 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "OPEN THREE",
-  // base: '/three-cesium-links',
-  base: './',
+  base: '/three-cesium-links',
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
