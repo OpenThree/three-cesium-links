@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 let base_front = ''
-if (process.env == 'production') {
+if (process.env.VITE_MODE == 'development') {
   base_front = '/openthree'
 }
 // https://vitepress.dev/reference/site-config
