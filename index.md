@@ -16,12 +16,14 @@ hero:
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 </script>
+
 <VPTeamMembers :members="[
    {
-    avatar: 'https://avatars.githubusercontent.com/u/56536031?v=4',
+    avatar: 'http://nicowebgl.cn:3000/avatars/Nicolas-zn',
     name: 'Nico',
     title: '热爱Three.js 和 Cesium.js 的开发者',
     links: [
@@ -29,7 +31,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/72586973?s=96&v=4',
+    avatar: 'http://nicowebgl.cn:3000/avatars/z2586300277',
     name: '优雅永不过时',
     title: '致力于可视化前端的开发者',
     links: [
@@ -37,7 +39,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/172246978?v=4',
+    avatar: 'http://nicowebgl.cn:3000/avatars/g2657',
     name: 'g2657',
     title: '前端开发者',
     links: [
