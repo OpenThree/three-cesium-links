@@ -33,14 +33,14 @@ export default defineConfig({
               MODE: env.VITE_MODE || 'development',
             }
     },
-    server:{
-      proxy:{
-        '/openthree_group': {
-          target: 'http://nicowebgl.cn/file_airport',
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/openthree_group/, "/openthree_group")
-        }
-      }
-    }
+    // server:{
+    //   proxy:{
+    //     '/openthree_group': {
+    //       target: 'http://nicowebgl.cn/file_airport',
+    //       changeOrigin: true,
+    //       rewrite: (path) => path.replace(/^\/openthree_group/, "/openthree_group")
+    //     }
+    //   }
+    // }
   }
 })
