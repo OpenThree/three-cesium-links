@@ -23,7 +23,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 <VPTeamMembers :members="[
    {
-    avatar: '/avatars/Nicolas-zn',
+    avatar: '/openthree_group/Nicolas-zn/avatar.jpg',
     name: 'Nico',
     title: '热爱Three.js 和 Cesium.js 的开发者',
     links: [
@@ -31,7 +31,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: '/avatars/z2586300277',
+    avatar: '/openthree_group/z2586300277/avatar.jpg',
     name: '优雅永不过时',
     title: '致力于可视化前端的开发者',
     links: [
@@ -39,7 +39,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: '/avatars/g2657',
+    avatar: '/openthree_group/g2657/avatar.jpg',
     name: 'g2657',
     title: '前端开发者',
     links: [

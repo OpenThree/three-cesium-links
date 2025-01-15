@@ -35,10 +35,10 @@ export default defineConfig({
     },
     server:{
       proxy:{
-        '/avatars': {
-          target: 'http://nicowebgl.cn:3000',
+        '/openthree_group': {
+          target: 'http://nicowebgl.cn/file_airport',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/avatars/, '/avatars')
+          rewrite: (path) => path.replace(/^\/openthree_group/, "/openthree_group")
         }
       }
     }
