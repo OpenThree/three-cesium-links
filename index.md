@@ -23,7 +23,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 <VPTeamMembers :members="[
    {
-    avatar: 'http://nicowebgl.cn/file_airport/openthree_group/Nicolas-zn/avatar.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/56536031?v=4',
     name: 'Nico',
     title: '热爱Three.js 和 Cesium.js 的开发者',
     links: [
@@ -31,7 +31,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: 'http://nicowebgl.cn/file_airport/openthree_group/z2586300277/avatar.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/72586973?s=96&v=4',
     name: '优雅永不过时',
     title: '致力于可视化前端的开发者',
     links: [
@@ -39,11 +39,11 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: 'http://nicowebgl.cn/file_airport/openthree_group/g2657/avatar.jpg',
-    name: 'g2657',
-    title: '前端开发者',
+    avatar: 'https://avatars.githubusercontent.com/u/20716499?v=4',
+    name: 'JWL',
+    title: '人生如逆旅，我亦是行人',
     links: [
-      { icon: 'github', link: 'https://github.com/g2657' },
+      { icon: 'github', link: 'https://github.com/jiawanlong' },
     ]
   }
 ]" />

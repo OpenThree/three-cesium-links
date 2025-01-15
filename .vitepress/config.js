@@ -6,10 +6,10 @@ export default defineConfig({
   base:  env.VITE_ALIYUN+ 'three-cesium-links',
   description: "A VitePress Site",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: 'https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg',
     nav: [
-      { text: '开源案例🍃', link: 'https://z2586300277.github.io/three-cesium-examples/' },
+      { text: 'Three 案例🍃', link: 'https://z2586300277.github.io/three-cesium-examples/' },
+      { text: 'Cesium 案例🍀', link: 'https://jiawanlong.github.io/examples/cesiumEx/editor.html' },
     ],
 
     sidebar: [
@@ -20,6 +20,10 @@ export default defineConfig({
         ]
       }
     ],
+
+    footer: {
+        copyright: `版权所有 ©2019-2025 OpenThree All Rights`,
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/OpenThree' }
