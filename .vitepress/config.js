@@ -9,7 +9,7 @@ export default defineConfig({
     logo: 'https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg',
     nav: [
       { text: 'Three 案例🍃', link: 'https://z2586300277.github.io/three-cesium-examples/' },
-      { text: 'Cesium 案例🍀', link: 'https://jiawanlong.github.io/examples/cesiumEx/editor.html' },
+      { text: 'Cesium 案例🍀', link: 'https://jiawanlong.github.io/' },
     ],
 
     sidebar: [

@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Open Three"
-  text: "开源 - 三维"
-  tagline: 一个专注于前端可视化的开源组织，三维可视化开发者抱团取暖，开源分享知识，接活盈利，让自己更有底气，加入请联系
+  text: "开源 三维"
+  tagline: 专注于三维可视化的开源组织，开发者抱团取暖，分享知识，接活盈利，让自己更有底气，加入请联系 —— 下列任意作者 或 QQ🐧：2586300277
   image:
     src: https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg
 # features:
@@ -45,5 +45,29 @@ import { VPTeamMembers } from 'vitepress/theme'
     links: [
       { icon: 'github', link: 'https://github.com/jiawanlong' },
     ]
+  },
+    {
+    avatar: 'https://avatars.githubusercontent.com/u/22094990?v=4',
+    name: '攻城师不浪',
+    title: '砥砺前行，fighting',
+    links: [
+      { icon: 'github', link: 'https://github.com/tingyuxuan2302' },
+    ],
+  },
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/47728509?v=4',
+    name: 'KZ137onethe',
+    title: 'KZ137onethe',
+    links: [
+      { icon: 'github', link: 'https://github.com/KZ137onethe' },
+    ],
+  },
+   {
+    avatar: 'https://avatars.githubusercontent.com/u/172246978?v=4',
+    name: 'code like',
+    title: 'Three.js developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/g2657' },
+    ],
   }
 ]" />
