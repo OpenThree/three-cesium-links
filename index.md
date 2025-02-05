@@ -28,6 +28,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     title: '热爱Three.js 和 Cesium.js 的开发者',
     links: [
       { icon: 'github', link: 'https://github.com/Nicolas-zn' },
+      { icon: 'twitter', link: 'https://nicowebgl.cn/portfolio/index.html#/my_resume' },
     ]
   },
   {
@@ -36,6 +37,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     title: '致力于可视化前端的开发者',
     links: [
       { icon: 'github', link: 'https://github.com/z2586300277' },
+      { icon: 'twitter', link: 'https://z2586300277.github.io' },
     ]
   },
   {
@@ -44,6 +46,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     title: '人生如逆旅，我亦是行人',
     links: [
       { icon: 'github', link: 'https://github.com/jiawanlong' },
+      { icon: 'twitter', link: 'https://jiawanlong.github.io/' },
     ]
   },
     {
