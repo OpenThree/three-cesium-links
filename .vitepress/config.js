@@ -8,6 +8,7 @@ export default defineConfig({
   themeConfig: {
     logo: 'https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg',
     nav: [
+      { text: '📗简介', link: 'https://nicowebgl.cn/openthree/home/' },
       { text: 'Three 案例🍃', link: 'https://z2586300277.github.io/three-cesium-examples/' },
       { text: 'Cesium 案例🍀', link: 'https://jiawanlong.github.io/Cesium-Examples/examples/cesiumEx/examples.html#mapping' },
     ],
