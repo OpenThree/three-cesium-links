@@ -23,7 +23,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 <VPTeamMembers :members="[
    {
-    avatar: 'https://avatars.githubusercontent.com/u/56536031?v=4',
+    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/Nicolas-zn/avatar.jpg',
     name: 'Nico',
     title: '热爱Three.js 和 Cesium.js 的开发者',
     links: [
@@ -32,7 +32,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/72586973?s=96&v=4',
+    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/z2586300277/avatar.jpg',
     name: '优雅永不过时',
     title: '致力于可视化前端的开发者',
     links: [
@@ -41,7 +41,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/20716499?v=4',
+    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/jiawanlong/avatar.jpg',
     name: 'JWL',
     title: '人生如逆旅，我亦是行人',
     links: [
@@ -50,7 +50,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
     {
-    avatar: 'https://avatars.githubusercontent.com/u/22094990?v=4',
+    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/tingyuxuan2302/avatar.jpg',
     name: '攻城师不浪',
     title: '砥砺前行，fighting',
     links: [
@@ -58,7 +58,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ],
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/47728509?v=4',
+    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/KZ137onethe/avatar.jpg',
     name: 'KZ137onethe',
     title: 'KZ137onethe',
     links: [
@@ -66,7 +66,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ],
   },
    {
-    avatar: 'https://avatars.githubusercontent.com/u/172246978?v=4',
+    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/g2657/avatar.jpg',
     name: 'code like',
     title: 'Three.js developer',
     links: [
