@@ -23,16 +23,16 @@ import { VPTeamMembers } from 'vitepress/theme'
 
 <VPTeamMembers :members="[
    {
-    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/Nicolas-zn/avatar.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/56536031?v=4',
     name: 'Nico',
-    title: '热爱Three.js 和 Cesium.js 的开发者',
+    title: '热爱Three.js 和 Cesium.js 开发者',
     links: [
       { icon: 'github', link: 'https://github.com/Nicolas-zn' },
       { icon: 'twitter', link: 'https://nicowebgl.cn/portfolio/index.html#/my_resume' },
     ]
   },
   {
-    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/z2586300277/avatar.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/72586973?s=96&v=4',
     name: '优雅永不过时',
     title: '致力于可视化前端的开发者',
     links: [
@@ -41,7 +41,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
   {
-    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/jiawanlong/avatar.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/20716499?v=4',
     name: 'JWL',
     title: '人生如逆旅，我亦是行人',
     links: [
@@ -50,7 +50,7 @@ import { VPTeamMembers } from 'vitepress/theme'
     ]
   },
     {
-    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/tingyuxuan2302/avatar.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/22094990?v=4',
     name: '攻城师不浪',
     title: '砥砺前行，fighting',
     links: [
@@ -58,15 +58,15 @@ import { VPTeamMembers } from 'vitepress/theme'
     ],
   },
   {
-    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/KZ137onethe/avatar.jpg',
-    name: 'KZ137onethe',
-    title: 'KZ137onethe',
+    avatar: 'https://z2586300277.github.io/three-cesium-examples/files/author/FFMMCC.jpg',
+    name: 'CoderFMC',
+    title: 'CoderFMC',
     links: [
-      { icon: 'github', link: 'https://github.com/KZ137onethe' },
+      { icon: 'github', link: 'https://github.com/CoderFMC' },
     ],
   },
    {
-    avatar: 'https://nicowebgl.cn/file_airport/openthree_group/g2657/avatar.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/172246978?v=4',
     name: 'code like',
     title: 'Three.js developer',
     links: [
