@@ -9,18 +9,19 @@ export default defineConfig({
     logo: 'https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg',
     nav: [
       { text: '📗简介', link: 'https://nicowebgl.cn/openthree/home/' },
-      { text: 'Three 案例🍃', link: 'https://z2586300277.github.io/three-cesium-examples/' },
-      { text: 'Cesium 案例🍀', link: 'https://jiawanlong.github.io/Cesium-Examples/examples/cesiumEx/examples.html#mapping' },
+      { text: '👬团队', link: '/team'},
+      // { text: 'Three 案例🍃', link: 'https://z2586300277.github.io/three-cesium-examples/' },
+      // { text: 'Cesium 案例🍀', link: 'https://jiawanlong.github.io/Cesium-Examples/examples/cesiumEx/examples.html#mapping' },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
 
-        ]
-      }
-    ],
+    //     ]
+    //   }
+    // ],
 
     footer: {
         copyright: `版权所有 ©2019-2025 OpenThree All Rights`,
