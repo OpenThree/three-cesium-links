@@ -12,7 +12,7 @@ const contributors = [
     avatar: 'https://avatars.githubusercontent.com/u/56536031?v=4',
     name: 'Nico',
     title: 'Three.js  Cesium.js ',
-    desc: '热爱 Three.js 和 Cesium.js 开发',
+    desc: '热爱 Three.js 和 Cesium.js',
     links: [
       { icon: 'github', link: 'https://github.com/Nicolas-zn' }
     ]
@@ -70,7 +70,7 @@ const contributors = [
 <div class="team-page-container">
 
   <div class="team-section">
-    <h2>团段成员 <span class="subtitle">Contributors</span></h2>
+    <h2>团队成员 <span class="subtitle">Contributors</span></h2>
     <div class="members-container">
       <VPTeamMembers size="medium" :members="contributors" />
     </div>
