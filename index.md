@@ -22,8 +22,8 @@ features:
     title: Three.js 编辑器
     link: https://z2586300277.github.io/three-editor/docs/dist/
     details: 快速定制三维可视化低代码编辑器
-  - icon: 🍏
-    title: 新Three 编辑器
-    link: https://z2586300277.github.io/threejs-editor/#/editor
-    details: 高扩展、组件化 3D 编辑器
+  - icon: 🏠
+    title: Three 官方案例 - 优化版
+    link: https://openthree.github.io/three-official-examples/
+    details: Three官方案例界面重制 - 更佳体验
 ---

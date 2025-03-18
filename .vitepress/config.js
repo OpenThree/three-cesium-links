@@ -9,9 +9,10 @@ export default defineConfig({
     logo: 'https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg',
     nav: [
       { text: '📗简介', link: 'https://nicowebgl.cn/openthree/home/' },
-      { text: '优雅永不过时🐘', link: 'https://z2586300277.github.io' },
-      { text: '贾宛龙🌐', link: 'https://jiawanlong.github.io' },
+      { text: '🐘优雅永不过时', link: 'https://z2586300277.github.io' },
+      { text: '🌐贾宛龙', link: 'https://jiawanlong.github.io' },
       { text: '👬团队', link: '/team'},
+      { text: '🐧QQ群', link: 'https://qm.qq.com/q/QdsKkzo2gI' },
     ],
 
     // sidebar: [
