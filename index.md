@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Open Three"
-  text: "开源 三维可视化"
-  tagline: 学习、分享、互助、合作盈利、创业探索、欢迎加入
+  text: "开源 分享 学习 互助"
+  tagline: 欢迎加入：获取内部项目和进阶学习资源、合作盈利。
   image:
     src: https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg
 
