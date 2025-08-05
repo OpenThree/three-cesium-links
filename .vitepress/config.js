@@ -6,9 +6,8 @@ export default defineConfig({
   base:  env.VITE_ALIYUN+ 'three-cesium-links',
   description: "专注于三维可视化的开源组织，开发者抱团取暖，分享知识，接活盈利，让自己更有底气。",
   themeConfig: {
-    logo: 'https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg',
+    logo: '/logo.svg',
     nav: [
-      { text: '📗简介', link: 'https://nicowebgl.cn/openthree/home/' },
       { text: '🐘优雅永不过时', link: 'https://z2586300277.github.io' },
       { text: '🌐贾宛龙', link: 'https://jiawanlong.github.io' },
       { text: '👬团队', link: '/team'},

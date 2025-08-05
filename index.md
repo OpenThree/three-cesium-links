@@ -7,7 +7,7 @@ hero:
   text: "开源 分享 学习 互助"
   tagline: 欢迎加入：获取内部项目和进阶学习资源、合作盈利。
   image:
-    src: https://z2586300277.github.io/three-cesium-examples/files/site/logo.svg
+    src: /logo.svg
 
 features:
   - icon: 🍃
