@@ -11,15 +11,15 @@ hero:
 
 features:
   - icon: 🍃
-    title: Three 案例
-    link: https://z2586300277.github.io/three-cesium-examples/#/example
+    title: Three 案例 <img style="float:right" src="https://img.shields.io/github/stars/z2586300277/three-cesium-examples">
+    link: https://z2586300277.github.io/three-cesium-examples/#/example 
     details: 原生 Three.js 开源案例
   - icon: 🌐
-    title: Cesium 案例
+    title: Cesium 案例 <img style="float:right" src="https://img.shields.io/github/stars/jiawanlong/Cesium-Examples">
     link: https://jiawanlong.github.io/Cesium-Examples/examples/cesiumEx/examples.html
     details: 原生 Cesium.js 案例
   - icon: 🍁
-    title: Three.js 编辑器
+    title: Three.js 编辑器 <img style="float:right" src="https://img.shields.io/github/stars/z2586300277/three-editor">
     link: https://z2586300277.github.io/three-editor/docs/dist/
     details: 快速定制三维可视化低代码编辑器
   - icon: 🏠
