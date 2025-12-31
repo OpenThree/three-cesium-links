@@ -2,7 +2,7 @@ import { defineConfig, loadEnv } from 'vitepress'
 
 const env = loadEnv(process.env.VITE_MODE?process.env.VITE_MODE:"development",process.cwd())
 export default defineConfig({
-  title: "OPEN THREE",
+  title: "开源 3D",
   base:  env.VITE_ALIYUN+ 'three-cesium-links',
   description: "专注于三维可视化的开源组织，开发者抱团取暖，分享知识，接活盈利，让自己更有底气。",
   themeConfig: {

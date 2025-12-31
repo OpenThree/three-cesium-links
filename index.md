@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "Open Three"
-  text: "开源 分享 学习 互助"
-  tagline: 欢迎加入：获取内部项目和进阶学习资源、合作盈利。
+  name: "OPEN THREE"
+  tagline: 欢迎加入：获取内部项目和进阶学习资源、合作盈利。 联系： QQ：2586300277   微信：z2586300277
   image:
     src: /logo.svg
 
