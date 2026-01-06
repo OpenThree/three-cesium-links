@@ -8,6 +8,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     nav: [
+      { text: '📝留言', link: 'https://z2586300277.github.io/message.html' },
       { text: '🐘优雅永不过时', link: 'https://z2586300277.github.io' },
       { text: '🌐贾宛龙', link: 'https://jiawanlong.github.io' },
       { text: '👬团队', link: '/team'},
