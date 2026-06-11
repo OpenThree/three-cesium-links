@@ -8,6 +8,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     nav: [
+      { text: '🏬企业官网', link: 'https://site.threehub.cn/' },
       { text: '📖案例讲解', link: 'https://z2586300277.github.io/examples/' },
       { text: '🐘优雅永不过时', link: 'https://z2586300277.github.io' },
       { text: '🌐贾宛龙', link: 'https://jiawanlong.github.io' },
