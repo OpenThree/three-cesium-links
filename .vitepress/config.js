@@ -9,10 +9,10 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: '🏬企业官网', link: 'https://site.threehub.cn/' },
+      { text: '👬团队', link: 'https://openthree.github.io/'},
       { text: '📖案例讲解', link: 'https://z2586300277.github.io/examples/' },
       { text: '🐘优雅永不过时', link: 'https://z2586300277.github.io' },
       { text: '🌐贾宛龙', link: 'https://jiawanlong.github.io' },
-      { text: '👬团队', link: '/team'},
       { text: '🐧QQ群', link: 'https://qm.qq.com/q/QdsKkzo2gI' },
     ],
 
